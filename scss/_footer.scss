@@ -1,0 +1,31 @@
+footer {
+  height: 160px;
+  background-color: #151319;
+  margin-top: -10px;
+
+  .container {
+    flex-direction: column;
+    justify-content: center;
+
+    .row {
+      margin-top: 8px;
+      justify-content: center;
+      a i {
+        font-size: 20px;
+        margin: 0 15px;
+        color: #444247;
+      }
+    }
+
+    p {
+      margin: 19px 0 0 0;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 15px;
+    }
+  }
+}
+
+i:hover {
+  color: #008ed6 !important;
+}

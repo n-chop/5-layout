@@ -1,0 +1,31 @@
+@mixin blueDashes($path) {
+  background-image: $path;
+  background-repeat: repeat-x;
+  background-size: 44px 2px;
+}
+
+@mixin titleSmall($margin) {
+  font-size: 14px;
+  letter-spacing: 1.7px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #008ed6;
+  font-weight: 900;
+  margin: $margin;
+}
+
+@mixin titleBig($margin) {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  margin: $margin;
+}
+
+@mixin basicParagraph($padding) {
+  font-size: 17px;
+  line-height: 26px;
+  color: #999999;
+  font-weight: 600;
+  padding: $padding;
+  letter-spacing: 0.5px;
+}
